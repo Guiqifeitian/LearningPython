@@ -1,0 +1,11 @@
+#是一组key的集合，但是没有value，key不能重复，一旦重复，则自动过滤
+s=set([1,2,3,3,3,3,3,3,3,3])
+print(s)
+s.add(5)
+print(s)
+s.remove(3)
+#并集
+b=set([2,5,7])
+print(b|s)
+#交集
+print(b&s)

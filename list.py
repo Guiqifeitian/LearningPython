@@ -1,0 +1,17 @@
+classmates=['Gary','Blues','Alice']
+print(classmates)
+print(len(classmates))
+print(classmates[1])
+print(classmates[-2])
+classmates.append('Candy')
+print(classmates)
+"""
+pop是删除集合最后一个元素
+pop(i)是删除i位置的元素
+"""
+classmates.pop()
+print(classmates)
+#大小写敏感，calss是关键字
+m=['A','B','C','中国',['H','HH'],33,True]
+print(m)
+print(len(m))
